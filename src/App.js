@@ -7,7 +7,7 @@ function App() {
   const [todos, setTodos] = React.useState([
     { id: 1, completed: false, title: "Купить свеклу" },
     { id: 2, completed: false, title: "Купить картошку" },
-    { id: 3, completed: false, title: "Записаться на йогу" },
+    { id: 3, completed: false, title: "Сделать зарядку" },
   ]);
 
   function ToggleTodo(id) {
